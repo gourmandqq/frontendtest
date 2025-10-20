@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/browser_icon.svg">
+    <link rel="stylesheet" href="styles/main.min.css">
+    <title>МОДА ОПТИК</title>
+</head>
+<body>
+    <header>
+        <section class="header_1_line">
+            <div class="left-right">
+                <div class="left_menu">
+                    <nav class="left_nav">
+                        <a href="#special_version"><img src="assets/images/icon_eye.svg" alt="" draggable="false">Версия для слабовидящих</a>
+                        <span class="separator_left_nav"></span>
+                        <a href="#comparison"><img src="assets/images/bars-graphic.svg" alt="" draggable="false">Сравнение  товаров</a>
+                        <span class="separator_left_nav"></span>
+                        <div class="social_icons">
+                            <a href="https://instagram.com"><img src="assets/images/icon_instagram.svg" alt="" draggable="false"></a>
+                            <a href="https://x.com"><img src="assets/images/icon_twitter.svg" alt="" draggable="false"></a>
+                            <a href="https://vk.com"><img src="assets/images/icon_vk.svg" alt="" draggable="false"></a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="right_menu">
+                    <nav class="right_nav">
+                        <a href="#payment">Оплата</a>
+                        <span class="separator_right_nav"></span>
+                        <a href="#delivery">Доставка</a>
+                        <span class="separator_right_nav"></span>
+                        <a href="#refund">Возврат и обмен</a>
+                    </nav>
+                </div>
+            </div> 
+
+            <div class="header_logo_and_phone">
+                <a href="#" class="logo"><img src="assets/images/logo.png" alt="" draggable="false"></a>
+                <span class="tel_number"><a href="tel:+8184529633">(8184) 52-96-33</a></span>
+                <div class="block_search">
+                    <input type="text" id="search-input" placeholder="Искать">
+                    <img class="magnifier" id="search-button" src="assets/images/icon_search.svg" alt="Найти" draggable="false">
+                </div>
+
+                <div class="profile_and_cart">
+                    <div class="block_profile">
+                        <a href="#sign_in" class="sign_in"><img src="assets/images/icon_profile.svg" alt="" draggable="false">Вход/Регистрация</a>
+                    </div>
+                    <span class="separator_profile_cart"></span>
+                    <div class="block_cartcart">
+                        <a href="#cart" class="cart"><img src="assets/images/icon_cart.svg" alt="" draggable="false">Корзина</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#catalog">КАТАЛОГ</a></li>
+                        <li><a href="#about">О КОМПАНИИ</a></li>
+                        <li><a href="#OMS">ОМС</a></li>
+                        <li><a href="#sale">АКЦИИ</a></li>
+                        <li><a href="#web">РОЗНИЧНАЯ СЕТЬ</a></li>
+                        <li><a href="#partners">ПАРТНЕРЫ</a></li>
+                        <li><a href="#contact">КОНТАКТЫ</a></li>
+                        <li><a href="#selection_glasses">ПОДБОР ОЧКОВ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+    </header>
+
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide active">
+                    <div class="slide_content">
+                        <div class="left_content">
+                            <h2>Новая коллекция<br>солнечных очков</h2>
+                            <p>Весь ассортимент популярного бренда<br>в нашем интернет-магазине</p>
+                            <button onclick="location.href='#products'" class="catalog">ПЕРЕЙТИ В КАТАЛОГ</button>
+                        </div>
+                        <div class="right_content">
+                            <img src="assets/images/sliderpic.png" width="809" height="548" draggable="false">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide_content">
+                        <div class="left_content">
+                            <h2>Новая коллекция<br>солнечных очков</h2>
+                            <p>Весь ассортимент популярного бренда<br>в нашем интернет-магазине</p>
+                            <button onclick="location.href='#products'" class="catalog">ПЕРЕЙТИ В КАТАЛОГ</button>
+                        </div>
+                        <div class="right_content">
+                            <img src="assets/images/sliderpic.png" width="809" height="548" draggable="false">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="slide_content">
+                        <div class="left_content">
+                            <h2>Новая коллекция<br>солнечных очков</h2>
+                            <p>Весь ассортимент популярного бренда<br>в нашем интернет-магазине</p>
+                            <button onclick="location.href='#catalog'" class="catalog">ПЕРЕЙТИ В КАТАЛОГ</button>
+                        </div>
+                        <div class="right_content">
+                            <img src="assets/images/sliderpic.png" width="809" height="548" draggable="false">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="slider-arrow slider-arrow-prev">
+                <img src="assets/images/arrowprev.svg" alt="" draggable="false">
+            </button>
+            <button class="slider-arrow slider-arrow-next">
+                <img src="assets/images/arrownext.svg" alt="" draggable="false">
+            </button>
+            <div class="slider-pagination">
+                <button class="pagination-dot active" data-slide="0"></button>
+                <button class="pagination-dot" data-slide="1"></button>
+                <button class="pagination-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="podbor" id="selection_glasses">
+        <div class="left_container">
+            <h2>Подбор очков</h2>
+            <p>Поможем Вам подобрать очки,  с нужными характеристиками<br>из нашего огромного ассортимента</p>
+            <button class="choose">ПОДОБРАТЬ</button>
+        </div>
+        <div class="right_container">
+            <img src="assets/images/podbor_image.png" alt="" draggable="false">
+        </div>
+    </section>
+
+    <section class="popular_goods" id="products">
+    <h2>Популярные товары</h2>
+    <div class="product_slider-container">
+        <div class="product_slider">
+            <div class="product" id="catalog">
+                <img src="assets/images/product1.png" alt="" draggable="false">
+                <div class="product_info">
+                    <h3>DAVIDOFF Urban Coolness Sunglasses</h3>
+                    <div class="price_and_buttons">
+                        <div class="price">
+                            <h4>14500 руб.</h4>
+                            <h5><s>14500 руб.</s></h5>
+                        </div>
+                        <div class="buttons">
+                            <button class="compare_button"><img src="assets/images/compare_icon.svg" alt="" draggable="false"></button>
+                            <button class="cart_button">В КОРЗИНУ</button>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="product product2">
+                <img src="assets/images/product2.png" alt="" draggable="false">
+                <div class="product_info">
+                    <h3>ACUVUE OASYS with HydraLuxe<br>(30 линз)</h3>
+                    <div class="price_and_buttons">
+                        <div class="price">
+                            <h4>14500 руб.</h4>
+                        </div>
+                        <div class="buttons">
+                            <button class="cart_button">В КОРЗИНУ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/images/product3.png" alt="" draggable="false">
+                <div class="product_info">
+                    <h3>BULGARI NV-2345 Sunglasses</h3>
+                    <div class="price_and_buttons">
+                        <div class="price">
+                            <h4>14500 руб.</h4>
+                        </div>
+                        <div class="buttons">
+                            <button class="compare_button"><img src="assets/images/compare_icon.svg" alt="" draggable="false"></button>
+                            <button class="cart_button">В КОРЗИНУ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="assets/images/product4.png" alt="" draggable="false">
+                <div class="product_info">
+                    <h3>DAVIDOFF Urban Coolness Sunglasses</h3>
+                    <div class="price_and_buttons">
+                        <div class="price">
+                            <h4>14500 руб.</h4>
+                            <h5><s>14500 руб.</s></h5>
+                        </div>
+                        <div class="buttons">
+                            <button class="compare_button"><img src="assets/images/compare_icon.svg" alt="" draggable="false"></button>
+                            <button class="cart_button">В КОРЗИНУ</button>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stocks">
+    <div class="text_info">
+        <h2>Акции</h2>
+        <a href="#all_stocks">Все акции ></a>
+    </div>
+    
+    <div class="stock_cards" id="sale">
+        <div class="card card1">
+            <div class="card_padding">
+                <h3>Скидка 25% на очки DAVIDOFF</h3>
+                <p>На все очки DAVIDOFF весенней коллекции</p>
+                <a href="#more" class="more">ПОДРОБНЕЕ</a>
+            </div>
+        </div>
+
+        <div class="card card2">
+            <div class="card_padding">
+                <h3>Акция при покупке детских очков</h3>
+                <p>Оправа для очков со скидкой  50%</p>
+                <a href="#more" class="more">ПОДРОБНЕЕ</a>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="text_info">
+        <h3>О компании</h3>
+        <p><br><br>Открытие в 2003 году  ООО” Оптик – Центр” стало большим событием<br>
+            в оказании  медицинской помощи населению города и предоставило<br>
+            возможность  нашим клиентам проверить зрение без записи и 
+            очередей.<br><br>
+            Основным направлением нашей деятельности является оказание<br>
+            качественных услуг по проверке зрения, подбору контактных линз и<br>
+            диагностике заболеваний глаз. Мы  ведем индивидуальную работу с<br>
+            каждым клиентом, независимо от возраста и социального статуса.<br><br>
+            
+            Наши высококвалифицированные  специалисты имеют большой опыт<br>
+            работы в сфере здравоохранения,  решают различные проблемы со<br>
+            зрением, постоянно участвуют в семинарах по современным методам<br>
+            коррекции зрения и  съездах офтальмологов России.<br><br>
+        </p>
+        <a href="#more" class="more">ПОДРОБНЕЕ</a>
+    </div>
+</section>
+
+<footer>
+    <div class="logo_menu">
+        <a href="#"><img src="assets/images/logo.png" alt=""></a>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#catalog">КАТАЛОГ</a></li>
+                    <li><a href="#about">О КОМПАНИИ</a></li>
+                    <li><a href="#OMS">ОМС</a></li>
+                    <li><a href="#sale">АКЦИИ</a></li>
+                    <li><a href="#web">РОЗНИЧНАЯ СЕТЬ</a></li>
+                    <li><a href="#partners">ПАРТНЕРЫ</a></li>
+                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                    <li><a href="#selection_glasses">ПОДБОР ОЧКОВ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="mid_content" id="OMS">
+        <div class="column1" id="web">
+            <p>ООО «Оптик-Центр»<br>
+            ОГРН 1032901007853<br><br>
+            164500, г. Северодвинск,<br>
+            ул. Ломоносова, д. 73<br><br>
+            Информация на сайте<br>не является публичной офертой<br>и носит справочный<br>характер. 
+        </p>
+        </div>
+
+        <div class="column2" id="partners">
+            <h3>МАГАЗИНЫ<br><br></h3>
+            <p>
+                164500, г. Северодвинск, ул.<br>Советская, д. 50/12<br><br>
+                163000, г. Архангельск, ул.<br>набережная Северной Двины, д. 93
+            </p>
+        </div>
+
+        <div class="column3" id="contact">
+            <h3>КОНТАКТНАЯ ИНФОРМАЦИЯ<br><br></h3>
+            <a href="tel:+8184529633" class="tel_number_footer">(8184) 52-96-33<br><br></a>
+            <a href="mailto:office@moda-optic.ru">office@moda-optic.ru</a>
+            <div class="social">
+                <p>Мы в соц.сетях:</p>
+                <a href="https://instagram.com"><img src="assets/images/icon_instagram.svg" alt="" draggable="false"></a>
+                <a href="https://x.com"><img src="assets/images/icon_twitter.svg" alt="" draggable="false"></a>
+                <a href="https://vk.com"><img src="assets/images/icon_vk.svg" alt="" draggable="false"></a>
+            </div>
+        </div>
+
+        <div class="column4">
+            <p>Подпишитесь на наши новости и акции,<br>чтобы быть в курсе</p>
+            <div class="email">
+                <input type="text" id="email" placeholder="Ваш e-mail">
+                <img class="magnifier" id="email" src="assets/images/email_button.png" alt="email" draggable="false">
+            </div>
+            <div class="doc_info">
+                <a href="#doc">Договор оферты</a>
+                <a href="#pol">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom_content">
+        <div class="left_info">
+            <p>Интернет-магазин "Мода-оптик". <a href="#user">Пользовательское соглашение</a></p>
+            <p>Имеются противопоказания, необходимо проконсультироваться со специалистом</p>
+        </div>
+        <div class="right_info">
+            <p>Принимаем к оплате:</p>
+            <div class="icons">
+                <img src="assets/images/visa.png" alt="">
+                <img src="assets/images/mastercard.png" alt="">
+                <img src="assets/images/maestro.png" alt="">
+                <img src="assets/images/mir.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="module" src="main.min.js"></script>
+</body>
+</html>
